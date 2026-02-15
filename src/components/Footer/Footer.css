@@ -1,0 +1,131 @@
+/* ============================================
+   Footer Styles
+   ============================================ */
+
+.footer {
+  background: var(--color-bg-secondary);
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-16) 0 var(--space-8);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-16);
+  margin-bottom: var(--space-12);
+}
+
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-brand .logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.footer-brand .logo-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--color-accent);
+}
+
+.footer-brand .logo-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-brand .logo-text {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.footer-tagline {
+  font-size: var(--text-sm);
+  color: var(--color-text-tertiary);
+  font-style: italic;
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--space-16);
+}
+
+.footer-column h4 {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-4);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer-column ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.footer-column a {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.footer-column a:hover {
+  color: var(--color-accent);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--space-8);
+  border-top: 1px solid var(--color-border);
+}
+
+.copyright {
+  font-size: var(--text-sm);
+  color: var(--color-text-tertiary);
+}
+
+.footer-philosophy {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-text-tertiary);
+  font-style: italic;
+}
+
+.mayfly-icon {
+  color: var(--color-accent);
+  font-style: normal;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: var(--space-8);
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: var(--space-8);
+  }
+
+  .footer-column {
+    min-width: 120px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-4);
+    text-align: center;
+  }
+}
