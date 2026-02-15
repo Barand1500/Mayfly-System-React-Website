@@ -233,6 +233,8 @@ const Contact = () => {
               viewport={{ once: true }}
             >
               <form className="contact-form" onSubmit={handleSubmit}>
+                <h2 className="form-title">Bize Ulaşın</h2>
+                <p className="form-desc">Her türlü soru, teklif veya iş birliği için formu doldurabilirsiniz. Size en kısa sürede dönüş yapacağız!</p>
                 <div className="form-row">
                   <div className="form-group">
                     <label htmlFor="name">İsim</label>
@@ -306,7 +308,7 @@ const Contact = () => {
                   {status === 'sending' && (
                     <>
                       <span>Gönderiliyor</span>
-                      <div className="spinner"></div>
+                      <div className="spinner rainbow"></div>
                     </>
                   )}
                   {status === 'success' && (
@@ -321,9 +323,9 @@ const Contact = () => {
 
                 {status === 'success' && (
                   <motion.p 
-                    className="success-message"
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    className="success-message pop"
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
                   >
                     Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız!
                   </motion.p>
