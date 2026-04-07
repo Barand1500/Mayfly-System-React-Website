@@ -9905,7 +9905,7 @@ var require_client = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var scriptRel = "modulepreload";
 var assetsURL = function(dep) {
-	return "/Mayfly-System-React-Website/" + dep;
+	return "/baranuruncan/" + dep;
 };
 var seen = {};
 const __vitePreload = function preload(baseModule, deps, importerUrl) {
@@ -23638,4 +23638,7 @@ function App() {
 		})
 	] }) });
 }
-(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, {}) }) }));
+(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.StrictMode, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
+	basename: "/baranuruncan",
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, {})
+}) }));
