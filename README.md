@@ -37,10 +37,11 @@ Mayfly Systems, yazılım geliştirme, dijital üretim ve kişisel gelişim alan
 ## 📸 Screenshots / Ekran Görüntüleri
 
 ### Home / Ana Sayfa
-![Home Screenshot](public/vite.svg)
+![Home Screenshot](images/anasayfa.png)
 
-### Projects / Projeler
-![Projects Screenshot](public/vite.svg)
+
+### B-Code Pages / B-Code Kısmı
+![Projects Screenshot](images/b-code.png)
 
 > Replace the above image links with your own screenshots for a more professional README!
 
@@ -64,7 +65,7 @@ npm run dev
 
 ## 📬 Contact / İletişim
 - [Mayfly Systems Website](https://mayflysystems.com)
-- [info@mayflysystems.com](mailto:info@mayflysystems.com)
+- [mrbarand15@gmail.com](mrbarand15@gmail.com)
 
 ---
 
