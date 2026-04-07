@@ -5,7 +5,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/baranuruncan">
+    <BrowserRouter basename="/Mayfly-System-React-Website">
       <App />
     </BrowserRouter>
   </StrictMode>,
