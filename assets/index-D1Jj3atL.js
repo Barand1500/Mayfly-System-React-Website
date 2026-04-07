@@ -9905,7 +9905,7 @@ var require_client = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var scriptRel = "modulepreload";
 var assetsURL = function(dep) {
-	return "/MayflySystems-React/" + dep;
+	return "/Mayfly-System-React-Website/" + dep;
 };
 var seen = {};
 const __vitePreload = function preload(baseModule, deps, importerUrl) {
